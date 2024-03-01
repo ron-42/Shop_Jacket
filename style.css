@@ -1,0 +1,138 @@
+@font-face {
+    font-family: gilroy-medium;
+    src: url(./fonts/gilroy/Gilroy-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+#nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding: 0 30px;
+}
+
+#nav h4 {
+    font-size: 18px;
+    font-family: gilroy-medium;
+    font-weight: 500;
+    color: #222222;
+
+}
+
+#nav i {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 18px;
+}
+
+#center {
+    width: 100%;
+    /* height: 40%; */
+    padding: 60px 90px;
+}
+
+#center h1 {
+    font-size: 80px;
+    /* letter-spacing: 0.8px; */
+    font-family: gilroy-medium;
+    font-weight: 100;
+    color: #222222;
+    line-height: 90px;
+}
+
+#center-in {
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #222222;
+    font-family: gilroy-medium;
+}
+
+#right {
+    width: 25%;
+    margin-top: 60px;
+
+}
+
+.elem {
+    /* margin: 5px; */
+    padding: 15px 0;
+    border-top: 2px solid rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.elem a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 22px;
+    font-family: gilroy-medium;
+}
+
+.elem i {
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 0;
+}
+
+.elem:hover i {
+    opacity: 1;
+    transition: all 0.3s;
+    transition-timing-function: linear;
+}
+
+.elem:hover a {
+    text-decoration: underline;
+    color: black;
+    transition: all 0.3s;
+    transition-timing-function: linear;
+}
+
+#bottom {
+    margin-top: 50px;
+    width: 100%;
+    height: 55%;
+    background-color: red;
+    background: url(https://images.unsplash.com/photo-1464961968964-a80a9b51f3d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMGZlbWFsZSUyMG1vZGVsJTIwbGFuZHNjYXBlfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: 0 20%;
+}
